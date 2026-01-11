@@ -21,4 +21,13 @@ func main() {
   fmt.Println(student1)
   fmt.Println(student2)
   fmt.Println(x)
+
+  // Variable Declaration With Initial Value
+  var student3 string = "John" //type is string
+  var student4 = "Jane" //type is inferred
+  y := 2 //type is inferred
+
+  fmt.Println(student3)
+  fmt.Println(student4)
+  fmt.Println(y)
 }
