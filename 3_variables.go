@@ -30,4 +30,16 @@ func main() {
   fmt.Println(student3)
   fmt.Println(student4)
   fmt.Println(y)
+
+
+  // Variable Declaration Without Initial Value
+  var a string
+  var b int
+  var c bool
+
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
+
+
 }
