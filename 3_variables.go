@@ -41,5 +41,8 @@ func main() {
   fmt.Println(b)
   fmt.Println(c)
 
-
+  // Value Assignment After Declaration
+  var student1 string
+  student1 = "John"
+  fmt.Println(student1)
 }
