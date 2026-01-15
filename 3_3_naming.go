@@ -12,5 +12,12 @@ func main() {
 	The variable name cannot be any Go keywords
   */
 
+	// Camel Case
+	myVariableName = "John"
 
+	// Pascal Case
+	MyVariableName = "John"
+
+	// Snake Case
+	my_variable_name = "John"
 }
