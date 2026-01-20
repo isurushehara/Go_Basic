@@ -48,6 +48,23 @@ func main() {
   fmt.Println(A)
 }
   
+
+- Constants: Unchangeable and Read-only
+When a constant is declared, it is not possible to change the value later:
+
+Example
+package main
+import ("fmt")
+
+func main() {
+  const A = 1
+  A = 2
+  fmt.Println(A)
+}
+Result:
+./prog.go:8:7: cannot assign to A
+
+
 */
 
 
