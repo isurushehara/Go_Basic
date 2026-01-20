@@ -64,7 +64,24 @@ func main() {
 Result:
 ./prog.go:8:7: cannot assign to A
 
+- Multiple Constants Declaration
+Multiple constants can be grouped together into a block for readability:
 
+Example
+package main
+import ("fmt")
+
+const (
+  A int = 1
+  B = 3.14
+  C = "Hi!"
+)
+
+func main() {
+  fmt.Println(A)
+  fmt.Println(B)
+  fmt.Println(C)
+}
 */
 
 
